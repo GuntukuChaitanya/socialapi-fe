@@ -21,7 +21,6 @@ function App() {
   return (
     <div className="App">
       <Appbar/>
-      <h1>Welcome to Social API</h1>
       {Component}
     </div>
   );

@@ -8,10 +8,14 @@ export default function User() {
       component="form"
       sx={{
         '& > :not(style)': { m: 1, width: '25ch' },
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center', 
       }}
       noValidate
       autoComplete="off"
     >
+        <h1>Users</h1>
       <TextField id="userId" label="User ID" variant="standard" />
       <TextField id="uFirstName" label="User FirstName" variant="standard" />
     </Box>
